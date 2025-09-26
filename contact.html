@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Neptune Claws & Paws Rescue - Contact</title>
 </head>
 <body>
@@ -21,22 +22,39 @@
 
   <main>
     <h2>Contact Us</h2>
-    <form>
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name"><br><br>
 
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email"><br><br>
+    <section class="contact-container">
+      <!-- Contact Form Card -->
+      <div class="contact-card">
+        <h3>Send Us a Message</h3>
+        <form>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
 
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message"></textarea><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
 
-      <button type="submit">Send</button>
-    </form>
-    <p>📍 Johannesburg, South Africa</p>
-    <img src="../images/Shelter.png" alt="Shelter" width="370px" width="370"/>
-    <p>📧 info@pawsandclaws.org.za</p>
-    <p>Follow us: [Social Media Links]</p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" placeholder="Your message here"></textarea><br><br>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info Card -->
+      <div class="contact-card">
+        <h3>Our Location & Info</h3>
+        <img src="../images/Shelter.png" alt="Shelter" class="contact-img">
+        <p>📍 Johannesburg, South Africa</p>
+        <p>📧 info@pawsandclaws.org.za</p>
+        <p>Follow us on social media:</p>
+        <div class="social-links">
+          <a href="#" class="btn">Facebook</a>
+          <a href="#" class="btn">Instagram</a>
+          <a href="#" class="btn">Twitter</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
