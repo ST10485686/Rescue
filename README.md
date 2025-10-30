@@ -1,16 +1,19 @@
 Neptune Claws & Paws Rescue (NCPR)
+
 Proposal for WEDE502POE
 
 Author: Iviwe Bakaqana (ST10485686)
-
+_________________________________________________
 Overview
-
+____________
 Neptune Claws & Paws Rescue is a non-profit organisation focused on rescuing, rehabilitating, and rehoming abandoned cats and dogs within Johannesburg. The new website aims to provide an engaging, professional, and user-friendly platform that increases adoptions, fosters, and donations.
 
 Mission:
+__________
 To create a safe haven for animals in need and connect them with loving forever homes through improved digital outreach.
 
 Objectives
+____________
 
 Primary Goal:
 
@@ -25,6 +28,7 @@ Receive 10+ adoption applications weekly via the website.
 Grow newsletter subscriptions by 500+ within 3 months.
 
 Website Features
+____________________
 
 Home Page: Hero banner, featured pets, donation and volunteer call-to-actions.
 
@@ -39,16 +43,18 @@ Contact Page: Integrated form with map, social links, and support information.
 Secure Donations: PayPal and EFT integration.
 
 Target Audience
+______________________
 
-Animal lovers and families interested in adoption.
+-Animal lovers and families interested in adoption.
 
-Students and retirees seeking volunteer opportunities.
+-Students and retirees seeking volunteer opportunities.
 
-Philanthropists and donors supporting animal welfare.
+-Philanthropists and donors supporting animal welfare.
 
-Homeowners within the Johannesburg area.
+-Homeowners within the Johannesburg area.
 
 Design & User Experience
+_____________________________
 
 Color Palette:
 
@@ -79,6 +85,7 @@ CSS Styling (Newly Added)
 The HTML structure is now fully styled using a custom CSS stylesheet that enhances visual hierarchy, consistency, and accessibility.
 
 Key Additions:
+_________________________
 
 CSS Reset & Variables:
 Base reset and reusable variables for color, spacing, and typography.
@@ -102,6 +109,9 @@ Print Optimization:
 Specific print styles for readability when pages are printed or exported.
 
 Wireframe Sketch
+__________________
+<img width="1024" height="1536" alt="homepage-wireframe" src="https://github.com/user-attachments/assets/a4507bd8-e885-444d-a423-e22acfa82a78" />
+
 
 A wireframe was created to represent the homepage structure including:
 
@@ -112,6 +122,7 @@ Featured pets and donation area.
 Newsletter signup and contact details.
 
 Sitemap
+__________
 Home  
 ├── About Us  
 ├── Meet the Pets  
@@ -125,6 +136,7 @@ Home
 └── Contact Us
 
 Technical Requirements
+____________________________
 Component	Description
 Domain	www.pawsandclaws.org.za
 
@@ -135,25 +147,41 @@ Design Tools	Figma, Adobe XD
 Code Editor	Visual Studio Code
 Version Control	GitHub
 Testing Tools	Chrome DevTools, Lighthouse
+
 Timeframe & Milestones
-Week	Milestone
-Week 1	Project Planning & Content Gathering
-Week 2	Wireframing & Design Approval
-Week 3	HTML Structure & Basic Layout
-Week 4	CSS Styling Implementation (added)
-Week 5	Testing, Debugging, Browser Compatibility
-Week 6	Final Review & Submission
+____________________________
+
+Week	| Milestone
+
+Week | 1	Project Planning & Content Gathering
+
+Week | 2	Wireframing & Design Approval
+
+Week | 3	HTML Structure & Basic Layout
+
+Week | 4	CSS Styling Implementation (added)
+
+Week | 5	Testing, Debugging, Browser Compatibility
+
+Week |6	Final Review & Submission
+
 Budget (Estimated ZAR)
+______________________
 Item	Cost	Frequency
 Domain Registration	R150.00	Annual
-Web Hosting	R1,200.00	Annual
-SSL Certificate	Included	Annual
-Total Annual Cost	R1,350.00	
-Conclusion
 
+Web Hosting	R1,200.00	Annual
+
+SSL Certificate	Included	Annual
+
+Total Annual Cost	R1,350.00	
+
+Conclusion
+___________________________________
 With the inclusion of the custom CSS styling, the Neptune Claws & Paws Rescue website will not only improve its aesthetic and usability but also significantly enhance trust, accessibility, and engagement. The responsive design ensures a seamless user experience across all devices, helping more animals find loving homes while supporting donations and volunteer growth.
 
 Reference List
+_____________________
 
 Coolors.co, 2023. Color Palette Generator. Available at: https://coolors.co/
  [Accessed 21 August 2025].
