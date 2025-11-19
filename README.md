@@ -162,6 +162,7 @@ Part 2
 Week | 4	CSS Styling Implementation (added)
 
 Week | 5	Testing, Debugging, Browser Compatibility
+
  Part 3
  
 Week |6	Final Review & Submission
