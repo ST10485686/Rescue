@@ -152,17 +152,18 @@ Timeframe & Milestones
 ____________________________
 
 Week	| Milestone
-
+Part 1
 Week | 1	Project Planning & Content Gathering
 
 Week | 2	Wireframing & Design Approval
 
 Week | 3	HTML Structure & Basic Layout
-
+Part 2
 Week | 4	CSS Styling Implementation (added)
 
 Week | 5	Testing, Debugging, Browser Compatibility
-
+ Part 3
+ 
 Week |6	Final Review & Submission
 
 Budget (Estimated ZAR)
