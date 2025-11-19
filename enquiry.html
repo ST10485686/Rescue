@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Neptune Claws & Paws Rescue - Enquire</title>
+</head>
+<body>
+  <header>
+    <h1>Neptune Claws & Paws Rescue</h1>
+    <p>Rescue • Rehabilitate • Rehome</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="pets.html">Meet the Pets</a>
+    <a href="help.html">How to Help</a>
+    <a href="blog.html">Blog/News</a>
+    <a href="contact.html">Contact</a>
+    <a href="enquiry.html" class="active">Enquire</a>
+  </nav>
+
+  <main id="main-content">
+    <section data-animate>
+      <h2>Get Involved</h2>
+      <p>Choose how you'd like to help our rescue animals and fill out the appropriate form below.</p>
+    </section>
+
+    <div class="enquiry-container" data-animate>
+      <div class="enquiry-type-selector">
+        <div class="enquiry-tab active" data-form="adoption-form">Adoption</div>
+        <div class="enquiry-tab" data-form="foster-form">Foster Care</div>
+        <div class="enquiry-tab" data-form="volunteer-form">Volunteering</div>
+        <div class="enquiry-tab" data-form="donation-form">Donations</div>
+      </div>
+
+      <!-- Adoption Form -->
+      <div id="adoption-form" class="enquiry-form active">
+        <h3>Adoption Application</h3>
+        <form>
+          <div class="form-group">
+            <label for="adopt-name">Full Name *</label>
+            <input type="text" id="adopt-name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="adopt-email">Email *</label>
+            <input type="email" id="adopt-email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="adopt-phone">Phone Number</label>
+            <input type="tel" id="adopt-phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="adopt-pet">Which pet are you interested in?</label>
+            <select id="adopt-pet" name="pet">
+              <option value="">Select a pet</option>
+              <option value="joe">Joe (Labrador)</option>
+              <option value="grace">Grace (Siamese Cat)</option>
+              <option value="smeagol">Smeagol (Terrier Mix)</option>
+              <option value="asher">Asher (Domestic Shorthair)</option>
+              <option value="not-sure">Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="adopt-experience">Previous pet experience</label>
+            <textarea id="adopt-experience" name="experience" placeholder="Tell us about your experience with pets..."></textarea>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="adopt-agree" name="agree" required>
+            <label for="adopt-agree">I agree to provide a loving home and understand the responsibilities of pet ownership</label>
+          </div>
+          <button type="submit" class="btn submit-btn">Submit Adoption Application</button>
+        </form>
+      </div>
+
+      <!-- Foster Care Form -->
+      <div id="foster-form" class="enquiry-form active">
+        <h3>Foster Care Application</h3>
+        <form>
+          <div class="form-group">
+            <label for="foster-name">Full Name *</label>
+            <input type="text" id="foster-name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="foster-email">Email *</label>
+            <input type="email" id="foster-email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="foster-type">What type of animals can you foster?</label>
+            <select id="foster-type" name="animal-type" >
+              <option value="dogs">Dogs</option>
+              <option value="cats">Cats</option>
+              <option value="puppies">Puppies</option>
+              <option value="kittens">Kittens</option>
+              <option value="special-needs">Special Needs Animals</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="foster-duration">How long can you foster?</label>
+            <select id="foster-duration" name="duration" >
+              <option value="2-weeks">2 weeks</option>
+              <option value="1-month">1 month</option>
+              <option value="3-months">3 months</option>
+              <option value="6-months">6 months</option>
+              <option value="indefinite">Until adoption</option>
+            </select>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="foster-agree" name="agree" required>
+            <label for="foster-agree">I understand that fostering is temporary and I'll need to return the animal when requested</label>
+          </div>
+          <button type="submit" class="btn submit-btn">Submit Foster Application</button>
+        </form>
+      </div>
+
+      <!-- Volunteer Form -->
+      <div id="volunteer-form" class="enquiry-form active">
+        <h3>Volunteer Application</h3>
+        <form>
+          <div class="form-group">
+            <label for="volunteer-name">Full Name *</label>
+            <input type="text" id="volunteer-name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="volunteer-email">Email *</label>
+            <input type="email" id="volunteer-email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="volunteer-skills">What skills can you offer?(Please select one)</label>
+            <select id="volunteer-skills" name="skills" >
+              <option value="animal-care">Animal Care</option>
+              <option value="cleaning">Cleaning/Maintenance</option>
+              <option value="admin">Administrative Work</option>
+              <option value="fundraising">Fundraising</option>
+              <option value="events">Event Planning</option>
+              <option value="transport">Animal Transport</option>
+              <option value="marketing">Marketing/Social Media</option>
+              <option value="Active">All</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="volunteer-availability">When are you available?</label>
+            <select id="volunteer-availability" name="availability">
+              <option value="weekdays">Weekdays</option>
+              <option value="weekends">Weekends</option>
+              <option value="evenings">Evenings</option>
+              <option value="flexible">Flexible</option>
+            </select>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="volunteer-agree" name="agree" required>
+            <label for="volunteer-agree">I agree to follow shelter policies and procedures</label>
+          </div>
+          <button type="submit" class="btn submit-btn">Submit Volunteer Application</button>
+        </form>
+      </div>
+
+      <!-- Donation Form -->
+      <div id="donation-form" class="enquiry-form active">
+        <h3>Donation Form</h3>
+        <form>
+          <div class="form-group">
+            <label for="donation-name">Full Name</label>
+            <input type="text" id="donation-name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="donation-email">Email</label>
+            <input type="email" id="donation-email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="donation-type">Donation Type</label>
+            <select id="donation-type" name="donation-type">
+              <option value="financial">Financial Donation</option>
+              <option value="supplies">Supplies/Food</option>
+              <option value="equipment">Equipment</option>
+              <option value="services">Professional Services</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="donation-amount">Donation Amount (if financial)</label>
+            <input type="number" id="donation-amount" name="amount" placeholder="R">
+          </div>
+          <div class="form-group">
+            <label for="donation-items">What items are you donating? (if supplies)</label>
+            <textarea id="donation-items" name="items" placeholder="List the items you'd like to donate..."></textarea>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="donation-receipt" name="receipt">
+            <label for="donation-receipt">I would like a tax receipt (if applicable)</label>
+          </div>
+          <button type="submit" class="btn submit-btn">Submit Donation Information</button>
+        </form>
+      </div>
+    </div>
+
+    <section class="enquiry-info" data-animate>
+      <div class="info-card">
+        <h3>Our Process</h3>
+        <div class="process-steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h4>Submit Form</h4>
+            <p>Fill out the appropriate application form with your details</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h4>We Review</h4>
+            <p>Our team reviews your application within 2-3 business days</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h4>Follow Up</h4>
+            <p>We'll contact you for any additional information needed</p>
+          </div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <h4>Approval</h4>
+            <p>Once approved, we'll guide you through the next steps</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Neptune Claws & Paws Rescue</h3>
+        <p>Rescuing and rehoming abandoned cats and dogs in Johannesburg since 2023.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pets.html">Meet the Pets</a></li>
+          <li><a href="help.html">How to Help</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p>📍 123 Rescue Street, Johannesburg</p>
+        <p>📞 (011) 456-7890</p>
+        <p>✉️ info@ncpr.org.za</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Neptune Claws & Paws Rescue. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
