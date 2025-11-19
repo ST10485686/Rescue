@@ -164,7 +164,15 @@ Week | 4	CSS Styling Implementation (added)
 Week | 5	Testing, Debugging, Browser Compatibility
 
  Part 3
- 
++Updated content
++Revised FAQ section and updated footer details
++Updated images in adoption section
++Added CSS styling and images
++Fixed HTML structure and added logo link
++Updated pet listings with new images and details
++Enhanced header and FAQ styles	
++new added Images
+
 Week |6	Final Review & Submission
 
 Budget (Estimated ZAR)
