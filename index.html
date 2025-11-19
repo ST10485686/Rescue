@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
   <title>Neptune Claws & Paws Rescue - Home</title>
-
 </head>
 <body>
   <header>
@@ -19,43 +18,92 @@
     <a href="help.html">How to Help</a>
     <a href="blog.html">Blog/News</a>
     <a href="contact.html">Contact</a>
+    <a href="enquiry.html" class="active">Enquire</a>
   </nav>
 
   <main>
-  <h2>Welcome to NCPR</h2>
-  <p>We rescue and rehome abandoned cats and dogs in Johannesburg. Join us in making a difference.</p>
+    <section data-animate>
+      <h2>Welcome to NCPR</h2>
+      <p>We rescue and rehome abandoned cats and dogs in Johannesburg. Join us in making a difference.</p>
+    </section>
 
-  <!-- Action Buttons Grid -->
-  <section class="action-gallery">
-    <div class="action-card">
-      <h3>Adopt</h3>
-      <p>Give a pet a forever home and change their life forever.</p>
-      <a href="help.html#adopt" class="btn">Adopt</a>
-    </div>
+    <section class="action-gallery" aria-labelledby="action-heading" data-animate>
+      <h2 id="action-heading">Take Action</h2>
+      <article class="action-card">
+        <h3>Adopt</h3>
+        <p>Give a pet a forever home and change their life forever.</p>
+        <a href="help.html#adopt" class="btn">Adopt</a>
+      </article>
 
-    <div class="action-card">
-      <h3>Donate</h3>
-      <p>Support us financially or with supplies to help more animals in need.</p>
-      <a href="help.html#donate" class="btn">Donate</a>
-    </div>
+      <article class="action-card">
+        <h3>Donate</h3>
+        <p>Support us financially or with supplies to help more animals in need.</p>
+        <a href="help.html#donate" class="btn">Donate</a>
+      </article>
 
-    <div class="action-card">
-      <h3>Foster</h3>
-      <p>Provide temporary care for animals waiting for their forever home.</p>
-      <a href="help.html#foster" class="btn">Foster</a>
-    </div>
+      <article class="action-card">
+        <h3>Foster</h3>
+        <p>Provide temporary care for animals waiting for their forever home.</p>
+        <a href="help.html#foster" class="btn">Foster</a>
+      </article>
 
-    <div class="action-card">
-      <h3>Volunteer</h3>
-      <p>Join our team and help at events or with daily care activities.</p>
-      <a href="help.html#volunteer" class="btn">Volunteer</a>
-    </div>
-  </section>
-</main>
+      <article class="action-card">
+        <h3>Volunteer</h3>
+        <p>Join our team and help at events or with daily care activities.</p>
+        <a href="help.html#volunteer" class="btn">Volunteer</a>
+      </article>
+    </section>
 
+    <section class="stats-section" data-animate>
+      <h2>Our Impact in 2024</h2>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">247</div>
+          <div class="stat-label">Animals Rescued</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">189</div>
+          <div class="stat-label">Successful Adoptions</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">42</div>
+          <div class="stat-label">Active Volunteers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">15</div>
+          <div class="stat-label">Community Events</div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Neptune Claws & Paws Rescue. All Rights Reserved.</p>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Neptune Claws & Paws Rescue</h3>
+        <p>Rescuing and rehoming abandoned cats and dogs in Johannesburg since 2015.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pets.html">Meet the Pets</a></li>
+          <li><a href="help.html">How to Help</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p>📍 123 Rescue Street, Johannesburg</p>
+        <p>📞 (011) 456-7890</p>
+        <p>✉️ info@ncpr.org.za</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Neptune Claws & Paws Rescue. All Rights Reserved.</p>
+    </div>
   </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>

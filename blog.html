@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
   <title>Neptune Claws & Paws Rescue - Blog & News</title>
-
 </head>
 <body>
   <header>
@@ -13,38 +12,62 @@
     <p>Rescue • Rehabilitate • Rehome</p>
   </header>
 
-  <nav>
+ <nav>
     <a href="index.html">Home</a>
     <a href="pets.html">Meet the Pets</a>
     <a href="help.html">How to Help</a>
     <a href="blog.html">Blog/News</a>
     <a href="contact.html">Contact</a>
+    <a href="enquiry.html" class="active">Enquire</a>
   </nav>
-
   <main>
-  <h2>Blog & News</h2>
+    <section data-animate>
+      <h2>Blog & News</h2>
+    </section>
 
-  <!-- Blog Grid -->
-  <section class="blog-gallery">
-    <article class="blog-card">
-      <img src="../images/Daisy.png" alt="Bella the Labrador">
-      <h3>Success Story: Bella the Labrador</h3>
-      <p>Bella found her forever home after months in foster care. Read more about her journey and how you can help other pets like Bella.</p>
-      <a href="#" class="btn">Read More</a>
-    </article>
+    <section class="blog-gallery" data-animate>
+      <article class="blog-card">
+        <img src="../images/Daisy.png" alt="Bella the Labrador">
+        <h3>Success Story: Bella the Labrador</h3>
+        <p>Bella found her forever home after months in foster care. Read more about her journey and how you can help other pets like Bella.</p>
+        <a href="#" class="btn">Read More</a>
+      </article>
 
-    <article class="blog-card">
-      <img src="../images/Event.jpg" alt="Adoption Day Event">
-      <h3>Upcoming Event: Adoption Day</h3>
-      <p>Join us at the park from 30 August till 11 September to meet our pets and potentially find your new furry friend!</p>
-      <a href="#" class="btn">Read More</a>
-    </article>
-  </section>
-</main>
-
+      <article class="blog-card">
+        <img src="../images/Event.jpg" alt="Adoption Day Event">
+        <h3>Upcoming Event: Adoption Day</h3>
+        <p>Join us at the park from 30 August till 11 September to meet our pets and potentially find your new furry friend!</p>
+        <a href="#" class="btn">Read More</a>
+      </article>
+    </section>
+  </main>
+<script src="main.js"></script>
 
   <footer>
-    <p>&copy; 2025 Neptune Claws & Paws Rescue. All Rights Reserved.</p>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Neptune Claws & Paws Rescue</h3>
+        <p>Rescuing and rehoming abandoned cats and dogs in Johannesburg since 2015.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pets.html">Meet the Pets</a></li>
+          <li><a href="help.html">How to Help</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p>📍 123 Rescue Street, Johannesburg</p>
+        <p>📞 (011) 456-7890</p>
+        <p>✉️ info@ncpr.org.za</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Neptune Claws & Paws Rescue. All Rights Reserved.</p>
+    </div>
   </footer>
 </body>
 </html>

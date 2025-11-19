@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
   <title>Neptune Claws & Paws Rescue - Meet the Pets</title>
   
 </head>
@@ -19,46 +19,73 @@
     <a href="help.html">How to Help</a>
     <a href="blog.html">Blog/News</a>
     <a href="contact.html">Contact</a>
+    <a href="enquiry.html" class="active">Enquire</a>
   </nav>
 
   <main>
-    <h2>Meet the Pets</h2>
-    <p>Filterable gallery of cats and dogs available for adoption.</p>
-
-    <!-- Pets Grid -->
-    <section class="pet-gallery">
-        <article class="pet-card dog">
-            <img src="../images/Joe.jpg" alt="Joe the playful Labrador">
-            <h3>Joe</h3>
-            <p>2-year-old Labrador. Loves fetch and kids, full of energy!</p>
-            <a href="#" class="btn">Adopt Joe</a>
-        </article>
-
-        <article class="pet-card cat">
-            <img src="../images/Asher.jpeg" alt="Grace the gentle cat">
-            <h3>Grace</h3>
-            <p>3-year-old tabby cat. Calm, affectionate, and loves naps in the sun.</p>
-            <a href="#" class="btn">Adopt Grace</a>
-        </article>
-        <article class="pet-card cat">
-            <img src="../images/Smeagol.jpg" alt="Smeagol the curious kitten">
-            <h3>Smeagol</h3>
-            <p>6-month-old kitten. Curious, playful, and loves climbing cat trees.</p>
-            <a href="#" class="btn">Adopt Smeagol</a>
-        </article>
-
-        <article class="pet-card dog">
-            <img src="../images/Grace.jpg" alt="Asher the loyal shepherd mix">
-            <h3>Asher</h3>
-            <p>4-year-old shepherd mix. Loyal, protective, and enjoys long walks.</p>
-            <a href="#" class="btn">Adopt Asher</a>
-        </article>
+    <section data-animate>
+      <h2>Meet the Pets</h2>
+      <p>These cats and dogs are looking for their forever homes. Click below to adopt or learn more!</p>
     </section>
-</main>
+
+    <section class="pet-gallery" aria-label="Adoptable pets" data-animate>
+      <article class="pet-card dog">
+        <img src="../images/Joe.jpg" alt="Joe the playful Labrador">
+        <h3>Joe</h3>
+        <p>2-year-old Labrador. Loves fetch and kids, full of energy!</p>
+        <a href="#" class="btn">Adopt Joe</a>
+      </article>
+
+      <article class="pet-card cat">
+        <img src="../images/Asher.jpeg" alt="Grace the gentle cat">
+        <h3>Grace</h3>
+        <p>3-year-old tabby cat. Calm, affectionate, and loves naps in the sun.</p>
+        <a href="#" class="btn">Adopt Grace</a>
+      </article>
+
+      <article class="pet-card cat">
+        <img src="../images/Smeagol.jpg" alt="Smeagol the curious kitten">
+        <h3>Smeagol</h3>
+        <p>6-month-old kitten. Curious, playful, and loves climbing cat trees.</p>
+        <a href="#" class="btn">Adopt Smeagol</a>
+      </article>
+
+      <article class="pet-card dog">
+        <img src="../images/Grace.jpg" alt="Asher the loyal shepherd mix">
+        <h3>Asher</h3>
+        <p>4-year-old shepherd mix. Loyal, protective, and enjoys long walks.</p>
+        <a href="#" class="btn">Adopt Asher</a>
+      </article>
+    </section>
+  </main>
+  <script src="main.js"></script>
 
 
   <footer>
-    <p>&copy; 2025 Neptune Claws & Paws Rescue. All Rights Reserved.</p>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Neptune Claws & Paws Rescue</h3>
+        <p>Rescuing and rehoming abandoned cats and dogs in Johannesburg since 2015.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pets.html">Meet the Pets</a></li>
+          <li><a href="help.html">How to Help</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p>📍 123 Rescue Street, Johannesburg</p>
+        <p>📞 (011) 456-7890</p>
+        <p>✉️ info@ncpr.org.za</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Neptune Claws & Paws Rescue. All Rights Reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
